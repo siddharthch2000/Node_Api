@@ -1,3 +1,4 @@
+//All Get and Post Routes
 const express = require('express');
 
 const {getPosts,createPost}= require('../control/post');

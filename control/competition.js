@@ -13,6 +13,7 @@ exports.getPost =(req,res)=>{
     .catch(err => console.log(err));
 
 };
+
 exports.createPosts = (req,res)=>{
     const post = new Post( {
         _id : new mongoose.Types.ObjectId(),

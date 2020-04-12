@@ -13,6 +13,8 @@ exports.getPest =(req,res)=>{
     .catch(err => console.log(err));
 
 };
+
+
 exports.createPests = (req,res)=>{
     const post = new Post( {
         _id : new mongoose.Types.ObjectId(),
