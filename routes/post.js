@@ -1,4 +1,3 @@
-
 const express = require('express');
 
 const {getPosts,createPost}= require('../control/post');
