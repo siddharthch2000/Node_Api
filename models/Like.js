@@ -1,3 +1,5 @@
+//Submission Like Schema
+
 const mongoose = require('mongoose');
 
 const LikeSchema = new mongoose.Schema({

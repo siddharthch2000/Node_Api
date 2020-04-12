@@ -1,3 +1,5 @@
+//Competition Schema
+
 const mongoose = require('mongoose');
 
 const CompSchema = new mongoose.Schema({

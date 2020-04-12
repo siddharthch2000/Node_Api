@@ -1,3 +1,5 @@
+//User's Collection Model
+
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
